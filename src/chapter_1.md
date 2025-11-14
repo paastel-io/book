@@ -8,26 +8,15 @@ The name refers to Brazil's most beloved food ([pastel][comida]), but it also
 has a meaning in the world of technology as a _"workaround"_ in the code, like
 [Go Horse][gohorse].
 
-## Componenetes
+## Componenets
 
-| Nome             | Descrição                                                         |
+| Name             | Description                                                       |
 | ---------------- | ----------------------------------------------------------------- |
 | Controller       | Workflow API server                                               |
 | Builder          | Git server and source-to-image component                          |
 | Dockerbuilder    | The builder for Docker based applications                         |
-| Slugbuilder      | The builder for slug/buildpack based applications                 |
-| Slugrunner       | The runner for slug/buildpack based applications                  |
-| Fluentd          | Backend log shipping mechanism for deis logs                      |
-| Postgres         | The central database                                              |
 | Registry         | The Docker registry                                               |
-| Logger           | The (in-memory) log buffer for deis logs                          |
-| Monitor          | The platform monitoring components                                |
 | Router           | The HTTP/s edge router                                            |
-| Minio            | The in-cluster, ephemeral, development-only object storage system |
-| Nsq              | Realtime distributed messaging platform                           |
-| Workflow-cli     | Workflow CLI deis                                                 |
-| Workflow-e2e     | End-to-end tests for the entire platform                          |
-| Workflow-manager | Manage, inspect, and debug a Workflow cluster                     |
 
 ## Setup Dev Environment
 
