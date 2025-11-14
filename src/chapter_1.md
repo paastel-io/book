@@ -13,7 +13,7 @@ has a meaning in the world of technology as a _"workaround"_ in the code, like
 | Name             | Description                                                       |
 | ---------------- | ----------------------------------------------------------------- |
 | Controller       | Workflow API server                                               |
-| Builder          | Git server and source-to-image component                          |
+| [Builder](./components/builder/index.html)          | Git server and source-to-image component                          |
 | Dockerbuilder    | The builder for Docker based applications                         |
 | Registry         | The Docker registry                                               |
 | Router           | The HTTP/s edge router                                            |

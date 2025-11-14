@@ -5,7 +5,7 @@
 # Components
 
 - [Controller]()
-- [Builder](./componenets/builder/README.md)
+- [Builder](./components/builder/README.md)
     - [Dockerbuilder]()
 - [Registry]()
 - [Router]()
