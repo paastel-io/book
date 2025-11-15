@@ -3,3 +3,4 @@ authors = ["msi"]
 language = "en"
 src = "src"
 title = "PaaStel Book"
+description = "Pastel Platform book"

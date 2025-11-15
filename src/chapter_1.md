@@ -10,13 +10,13 @@ has a meaning in the world of technology as a _"workaround"_ in the code, like
 
 ## Componenets
 
-| Name             | Description                                                       |
-| ---------------- | ----------------------------------------------------------------- |
-| Controller       | Workflow API server                                               |
-| [Builder](./components/builder/index.html)          | Git server and source-to-image component                          |
-| Dockerbuilder    | The builder for Docker based applications                         |
-| Registry         | The Docker registry                                               |
-| Router           | The HTTP/s edge router                                            |
+| Name                                       | Description                               |
+| ------------------------------------------ | ----------------------------------------- |
+| Controller                                 | Workflow API server                       |
+| [Builder](./components/builder/index.html) | Git server and source-to-image component  |
+| Dockerbuilder                              | The builder for Docker based applications |
+| Registry                                   | The Docker registry                       |
+| Router                                     | The HTTP/s edge router                    |
 
 ## Setup Dev Environment
 

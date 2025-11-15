@@ -14,10 +14,20 @@ rules:
       previous step.
 
 
-## Flow
+## Development Flow
 
 ```
-git push paastel main --> builder --> git receive -> git archieve -> git hook
+Developer → git push → SSH Server → Git Receive Hook
+                                          ↓
+                                    Git Archive (tarball)
+                                          ↓
+                                    Upload to Storage
+                                          ↓
+                            Create K8s Pod (dockerbuilder)
+                                          ↓
+                                    Build → Push to Registry
+                                          ↓
+                                    Controller deploys app
 ```
 
 [0]: https://git-scm.com/docs/git-receive-pack
