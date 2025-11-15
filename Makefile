@@ -4,7 +4,7 @@ DOMAIN	:= book.paastel.io
 RSYNC	:= openrsync
 
 watch:
-	${MDBOOK} serve
+	${MDBOOK} serve --open
 
 build:
 	${MDBOOK} build
