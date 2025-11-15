@@ -1,6 +1,6 @@
 [book]
-authors = ["msi"]
+authors = ["murilo ijanc'"]
+description = "Pastel Platform as a Service"
 language = "en"
 src = "src"
 title = "PaaStel Book"
-description = "Pastel Platform book"
